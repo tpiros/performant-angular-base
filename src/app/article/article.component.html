@@ -1,0 +1,43 @@
+<div class="card card-custom bg-white border-white border-0">
+  <div class="card-custom-img"></div>
+  <div class="card-custom-avatar">
+    <img class="img-fluid" src="../assets/img/author.jpg" alt="Avatar" />
+  </div>
+  <div class="card-header">
+    <p class="text-muted"><small><strong>Written by</strong>: Jennifer McMara - 27/07/2020</small></p>
+  </div>
+  <div class="card-body" style="overflow-y: auto">
+    <h4 class="card-title">Winning shot in the final</h4>
+    <p class="card-text">
+      Two teams have prevailed in the final for the MadeUp Waterpolo Tournament. Check out the video below where the home side's final, winning shot is gorgeously placed into the top left corner of the net.
+    </p>
+    <p class="text-center">
+      <img src="../assets/img/waterpolo-hun-goal.gif" alt="The winning shot" width="550" />
+    </p>
+    <p class="card-text">
+      In the game between Hungary and France the audience witnessed a whopping 16 goals shared by the sides. The final shot and its class is only shown by the most talented players and there are no shortage of such in both of these teams. However player #9 managed to swing in a shot in the final seconds of the game, giving his team a well deserved win.
+    </p>
+    <p class="card-text">
+      Take a look at some additional photos from the final:
+    </p>
+    <div class="row">
+      <div class="row__inner">
+  
+        <div class="tile" *ngFor="let photo of photos">
+          <div class="tile__media">
+            <img src="/assets/img/{{photo.src}}" class="tile__img" />
+          </div>
+          <div class="tile__details">
+            <div class="tile__title">
+              {{ photo.title }}
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+    <p class="card-text">
+      The two teams will have a well deserved rest now - the next tournament will start in 3 months. Until that time they have the chance to improve their game. 
+    </p>
+  </div>
+</div>
